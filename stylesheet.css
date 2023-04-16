@@ -11,13 +11,15 @@ nav{
     height: 30px;
 }
 nav ul {
-    display: flex;
-    flex-direction: flex-end;
-    text-decoration: none;
+    flex: 1;
+    text-align: right;
+    
     
 }
-nav li {
+nav ul li {
+    display: inline-block;
     margin: 10px;
+    list-style: none;
     
     
 }
@@ -25,4 +27,32 @@ nav li {
 nav a {
     text-decoration: none;
     color: aliceblue;
+}
+
+a:hover {
+    color: red;
+}
+
+#logo {
+    margin-left: 60px;
+}
+
+
+button {
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+button span {
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 0;
 }
